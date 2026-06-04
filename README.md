@@ -1,6 +1,6 @@
 # Brand Event Pitch Skill
 
-用于创建和打磨「品牌招商 / 赞助合作 / 联合营销活动」相关方案的 Codex skill。
+用于创建和打磨「品牌招商 / 赞助合作 / 联合营销活动」相关方案的 agent skill。
 
 它适合这些任务：
 
@@ -9,22 +9,48 @@
 - 审查招商 PPT 的商业逻辑、资源表达和页面顺序
 - 将成熟故事线继续扩展成 HTML slides
 
-## 安装
+## 使用方式
 
-把 `brand-event-pitch` 文件夹复制到本地 Codex skills 目录：
+### Codex
 
 ```bash
 mkdir -p ~/.codex/skills
 cp -R brand-event-pitch ~/.codex/skills/
 ```
 
-然后在对话里这样使用：
+然后在 Codex 里这样使用：
 
 ```text
 用 $brand-event-pitch，帮我做一个营销活动品牌招商PPT。
 活动是：夏季消费趋势营销IP
 目标品牌：美妆、食品、家电品牌
 输出：先给我15页左右的招商故事线和页序
+```
+
+### Claude Code 或其他支持 skills 的 agent
+
+如果你的 agent 支持本地 skill 文件夹，把整个 `brand-event-pitch` 文件夹复制到对应的 skills 目录。
+
+Claude Code 用户通常可以尝试：
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R brand-event-pitch ~/.claude/skills/
+```
+
+不同 agent 的触发方式可能不同。如果 `$brand-event-pitch` 不生效，可以直接在对话里说：
+
+```text
+请使用 brand-event-pitch 这个 skill，帮我做一个营销活动品牌招商PPT。
+```
+
+### 不支持 skills 的 agent
+
+也可以直接把 `brand-event-pitch/SKILL.md` 或 GitHub 链接发给 agent，并要求它按里面的工作流执行：
+
+```text
+请阅读这个 SKILL.md，并按照它的流程帮我做品牌招商PPT：
+https://github.com/your-org/brand-event-pitch
 ```
 
 ## 推荐输入
