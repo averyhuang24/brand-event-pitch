@@ -8,7 +8,7 @@
 - 改写营销活动招商方案
 - 审查招商 PPT 的商业逻辑、资源表达和页面顺序
 - 将成熟故事线继续扩展成 HTML slides
-- 使用内置公开风格预设生成视觉方向
+- 使用内置公开风格预设和 `frontend-slides` 模板包生成视觉方向
 
 ## 使用方式
 
@@ -71,15 +71,28 @@ brand-event-pitch/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
-└── references/
+├── references/
     ├── pitch-method.md
     ├── sample-learnings.md
     └── style-presets.md
+└── vendor/
+    └── frontend-slides/
+        ├── LICENSE
+        ├── STYLE_PRESETS.md
+        ├── animation-patterns.md
+        ├── html-template.md
+        ├── viewport-base.css
+        └── bold-template-pack/
 ```
 
 ## 内置风格
 
-这个 skill 自带公开可复用的招商 PPT 风格预设，不依赖任何私有模板：
+这个 skill 自带两层公开可复用视觉资源：
+
+1. `references/style-presets.md`：专门为招商 PPT 设计的风格方向。
+2. `vendor/frontend-slides/`：从 `frontend-slides` 引入的公开模板包和 HTML slides 基础框架。
+
+招商风格方向包括：
 
 - Event Command Center：大事件、增长计划、资源型招商
 - Cultural Pop IP：潮流 IP、年轻化活动、社交参与
@@ -91,3 +104,5 @@ brand-event-pitch/
 ## 注意
 
 发布版只包含从参考方案中抽象出的结构和方法，不包含原始 PDF 样本。
+
+`vendor/frontend-slides/` 来自 `frontend-slides`，遵循 MIT License，版权和许可声明保留在 `vendor/frontend-slides/LICENSE`。

@@ -7,7 +7,7 @@ description: Create or improve marketing-event brand招商 decks. Use when the u
 
 Build招商 decks for marketing events, campaign IPs, sponsorship packages, and brand partnerships. The job is not to make a pretty slide deck; it is to make a brand believe: **this event is a timely, credible, scarce growth field, and my brand has a clear role inside it.**
 
-This skill can use `frontend-slides` if it is installed, but does not depend on it. If no external slide style system is available, use the built-in public style presets in `references/style-presets.md`.
+This skill bundles the public `frontend-slides` visual resources under `vendor/frontend-slides/` and adapts them for招商 decks. Use `references/style-presets.md` as招商-specific guidance and `vendor/frontend-slides/` as the richer template/style implementation library.
 
 ## First Principle
 
@@ -83,17 +83,22 @@ If the user wants a designed deck, choose a visual system after the招商 story 
 
 Default visual workflow:
 
-1. Read `references/style-presets.md`.
-2. Pick 3 suitable presets and generate 3 first-slide previews.
-3. Ask the user to choose one or mix elements.
-4. Expand the chosen style across the full deck.
+1. Read `references/style-presets.md` for招商-specific visual direction.
+2. Read `vendor/frontend-slides/STYLE_PRESETS.md` and `vendor/frontend-slides/bold-template-pack/selection-index.json` for available template candidates.
+3. Pick 3 suitable visual directions and generate 3 first-slide previews.
+4. Ask the user to choose one or mix elements.
+5. Expand the chosen style across the full deck.
 
-If `frontend-slides` is installed and the user wants richer HTML slides, optionally read its support files:
+When generating HTML slides, use the bundled `frontend-slides` support files:
 
-- `viewport-base.css`
-- `html-template.md`
-- `animation-patterns.md`
-- style presets or selected template docs
+- `vendor/frontend-slides/viewport-base.css`
+- `vendor/frontend-slides/html-template.md`
+- `vendor/frontend-slides/animation-patterns.md`
+- `vendor/frontend-slides/STYLE_PRESETS.md`
+- `vendor/frontend-slides/bold-template-pack/selection-index.json`
+- selected `preview.md` / `design.md` files inside `vendor/frontend-slides/bold-template-pack/templates/`
+
+The bundled `frontend-slides` resources are MIT licensed. Preserve the license file when copying or redistributing this skill.
 
 ### Phase 5: Quality Gate
 
@@ -112,4 +117,5 @@ Before delivery, check the deck against this list:
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.
-- `references/style-presets.md`: public visual presets for招商 decks when no external template pack is available.
+- `references/style-presets.md`:招商-specific visual direction layer used to choose and adapt templates.
+- `vendor/frontend-slides/`: bundled public visual resources and bold template pack, from `frontend-slides` under MIT License.
