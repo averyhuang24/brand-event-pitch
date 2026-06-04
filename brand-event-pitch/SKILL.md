@@ -38,6 +38,7 @@ Do not ask generic presentation questions first. Ask only what changes the招商
 - Brand objective: Is the pitch selling曝光,转化,新品首发,人群渗透,信任背书,内容资产, or综合品效?
 - Hard assets: What resources are real or planned: traffic, topic, H5, search, live room, creators, celebrities, store/shelf, onsite event, media PR?
 - Proof: What data, cases, category insight, or user trend can be cited?
+- Visual assets: What images/logos/key visuals/product shots/event photos/reference decks can be used? If none are provided, should the agent source public images, generate campaign visuals, or use clearly marked placeholders?
 - Output: HTML deck, PPTX-style outline, page-by-page copy, review comments, or export-ready PDF.
 
 If these are unknown, proceed with a clearly marked assumption set and surface the missing items as risks.
@@ -70,6 +71,18 @@ Build decks from page types, not from templates:
 - Package page: tiered cooperation packages, scarcity, industry exclusivity, deliverables.
 - Case/proof page: comparable campaign, past result, category signal.
 - Closing page: cooperation invitation.
+
+### Phase 3.5: Image Plan
+
+Before generating a designed deck, read `references/image-rules.md` and create an image plan. 招商 decks are image-led: most strong pages should be built around theme-relevant visuals, with text as sharp claims and annotations.
+
+The image plan must specify:
+
+- which pages need hero images, collages, product/category imagery, event scenery, creator/people imagery, maps, or UI/resource mockups
+- where each image comes from: user-provided asset, public/sourceable image, generated image, screenshot/mockup, or intentional placeholder
+- what business point each image proves or dramatizes
+
+Do not generate a final HTML deck that is all text unless the user explicitly asks for text-only output.
 
 ### Phase 4: Visual Direction
 
@@ -104,6 +117,8 @@ The bundled `frontend-slides` resources are MIT licensed. Preserve the license f
 
 Before delivery, check the deck against this list:
 
+- At least 60% of non-table slides use meaningful imagery or visual mockups tied to the招商 theme.
+- The first 3 pages include at least one strong theme image or campaign-world visual; no text-only opening sequence.
 - The first 3 pages make the opportunity impossible to ignore.
 - The concept is not just a name; it changes the participation mechanism.
 - Every major玩法 has a brand entry point and user-facing reason.
@@ -117,5 +132,6 @@ Before delivery, check the deck against this list:
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.
+- `references/image-rules.md`: image-led deck rules, image planning, sourcing, and no-text-only constraints.
 - `references/style-presets.md`:招商-specific visual direction layer used to choose and adapt templates.
 - `vendor/frontend-slides/`: bundled public visual resources and bold template pack, from `frontend-slides` under MIT License.
