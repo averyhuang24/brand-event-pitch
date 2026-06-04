@@ -7,7 +7,7 @@ description: Create or improve marketing-event brand招商 decks. Use when the u
 
 Build招商 decks for marketing events, campaign IPs, sponsorship packages, and brand partnerships. The job is not to make a pretty slide deck; it is to make a brand believe: **this event is a timely, credible, scarce growth field, and my brand has a clear role inside it.**
 
-This skill adapts the visual workflow of `frontend-slides`, but replaces its generic presentation discovery with a招商 decision workflow.
+This skill can use `frontend-slides` if it is installed, but does not depend on it. If no external slide style system is available, use the built-in public style presets in `references/style-presets.md`.
 
 ## First Principle
 
@@ -73,7 +73,7 @@ Build decks from page types, not from templates:
 
 ### Phase 4: Visual Direction
 
-If the user wants a designed deck, use the `frontend-slides` visual system after the招商 story is stable:
+If the user wants a designed deck, choose a visual system after the招商 story is stable:
 
 - Use 1920x1080 fixed-stage HTML slides.
 - Generate 3 visual previews only after the story spine is approved or internally coherent.
@@ -81,7 +81,14 @@ If the user wants a designed deck, use the `frontend-slides` visual system after
 - For brand招商, favor high-energy but commercially legible design: strong title statements, large data, modular resource tables, campaign-world visuals, and clear brand slots.
 - Avoid generic pitch-deck minimalism when the event needs IP感; avoid decorative chaos when selling resource certainty.
 
-Before generating HTML, read the relevant `frontend-slides` support files if available:
+Default visual workflow:
+
+1. Read `references/style-presets.md`.
+2. Pick 3 suitable presets and generate 3 first-slide previews.
+3. Ask the user to choose one or mix elements.
+4. Expand the chosen style across the full deck.
+
+If `frontend-slides` is installed and the user wants richer HTML slides, optionally read its support files:
 
 - `viewport-base.css`
 - `html-template.md`
@@ -105,3 +112,4 @@ Before delivery, check the deck against this list:
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.
+- `references/style-presets.md`: public visual presets for招商 decks when no external template pack is available.

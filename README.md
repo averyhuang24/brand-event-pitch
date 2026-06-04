@@ -8,6 +8,7 @@
 - 改写营销活动招商方案
 - 审查招商 PPT 的商业逻辑、资源表达和页面顺序
 - 将成熟故事线继续扩展成 HTML slides
+- 使用内置公开风格预设生成视觉方向
 
 ## 使用方式
 
@@ -72,8 +73,20 @@ brand-event-pitch/
 │   └── openai.yaml
 └── references/
     ├── pitch-method.md
-    └── sample-learnings.md
+    ├── sample-learnings.md
+    └── style-presets.md
 ```
+
+## 内置风格
+
+这个 skill 自带公开可复用的招商 PPT 风格预设，不依赖任何私有模板：
+
+- Event Command Center：大事件、增长计划、资源型招商
+- Cultural Pop IP：潮流 IP、年轻化活动、社交参与
+- Premium Partnership：高预算赞助、战略合作、高端品牌
+- Trust Lab：产品证明、溯源、质量背书、科技验证
+- Retail Heatwave：销售转化、直播、购物节、优惠资源包
+- City Route / Experience Map：城市活动、线下体验、路线打卡
 
 ## 注意
 
