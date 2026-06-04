@@ -1,0 +1,8 @@
+.DS_Store
+*.pdf
+*.ppt
+*.pptx
+*.key
+*.zip
+.frontend-slides/
+node_modules/
