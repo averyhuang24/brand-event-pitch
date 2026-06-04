@@ -39,6 +39,7 @@ Do not ask generic presentation questions first. Ask only what changes the招商
 - Hard assets: What resources are real or planned: traffic, topic, H5, search, live room, creators, celebrities, store/shelf, onsite event, media PR?
 - Proof: What data, cases, category insight, or user trend can be cited?
 - Visual assets: What images/logos/key visuals/product shots/event photos/reference decks can be used? If none are provided, should the agent source public images, generate campaign visuals, or use clearly marked placeholders?
+- Identity/contact: What exact organizer/brand name, logo, and contact details may appear? If the user does not provide them, leave them out.
 - Output: HTML deck, PPTX-style outline, page-by-page copy, review comments, or export-ready PDF.
 
 If these are unknown, proceed with a clearly marked assumption set and surface the missing items as risks.
@@ -55,7 +56,7 @@ Default story spine:
 4. **Show the event system**: stages,玩法, content mechanisms, online/offline touchpoints.
 5. **Map brand entry points**: category-specific roles, not generic sponsorship.
 6. **Quantify resources and certainty**: traffic, slots, deliverables, timeline, rights, exclusivity.
-7. **Close with cooperation path**: packages, roadmap, next steps, contact/thanks.
+7. **Close with cooperation path**: packages, roadmap, next steps, and a simple closing slide. Do not add contact details unless provided.
 
 ### Phase 3: Page-Type Assembly
 
@@ -113,12 +114,20 @@ When generating HTML slides, use the bundled `frontend-slides` support files:
 
 The bundled `frontend-slides` resources are MIT licensed. Preserve the license file when copying or redistributing this skill.
 
+### Phase 4.5: Slide Chrome And Contact Rules
+
+Before final output, read `references/chrome-rules.md`. Template chrome is optional decoration, not content. Do not inherit default top-left labels, department names, organizer strings, runner text, confidentiality strings, footers, author names, emails, or contact blocks from examples or templates.
+
+Only include identity or contact text when the user explicitly provides the exact wording and asks for it to appear.
+
 ### Phase 5: Quality Gate
 
 Before delivery, check the deck against this list:
 
 - At least 60% of non-table slides use meaningful imagery or visual mockups tied to the招商 theme.
 - The first 3 pages include at least one strong theme image or campaign-world visual; no text-only opening sequence.
+- No unauthorized top-left header/chrome text, department label, platform label, author name, email, or contact block appears anywhere.
+- The final slide is a simple closing/invitation slide unless the user provided exact contact details and requested them.
 - The first 3 pages make the opportunity impossible to ignore.
 - The concept is not just a name; it changes the participation mechanism.
 - Every major玩法 has a brand entry point and user-facing reason.
@@ -133,5 +142,6 @@ Before delivery, check the deck against this list:
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.
 - `references/image-rules.md`: image-led deck rules, image planning, sourcing, and no-text-only constraints.
+- `references/chrome-rules.md`: rules for page headers, footers, logos, organizer names, and contact details.
 - `references/style-presets.md`:招商-specific visual direction layer used to choose and adapt templates.
 - `vendor/frontend-slides/`: bundled public visual resources and bold template pack, from `frontend-slides` under MIT License.
