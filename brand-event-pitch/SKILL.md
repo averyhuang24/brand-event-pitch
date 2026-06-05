@@ -1,11 +1,11 @@
 ---
 name: brand-event-pitch
-description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs a PPT/HTML deck, Feishu/Lark/Docs-style招商方案,招商手册, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
+description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs marketing-event idea generation, brand招商创意, a PPT/HTML deck, Feishu/Lark/Docs-style招商方案,招商手册, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
 ---
 
 # Brand Event Pitch
 
-Build招商 decks and招商方案 documents for marketing events, campaign IPs, sponsorship packages, and brand partnerships. The job is not to make pretty pages; it is to make a brand believe: **this event is a timely, credible, scarce growth field, and my brand has a clear role inside it.**
+Build招商 ideas, decks, and招商方案 documents for marketing events, campaign IPs, sponsorship packages, and brand partnerships. The job is not to make pretty pages; it is to make a brand believe: **this event is a timely, credible, scarce growth field, and my brand has a clear role inside it.**
 
 This skill bundles the public `frontend-slides` visual resources under `vendor/frontend-slides/` and adapts them for招商 decks. Use `references/style-presets.md` as招商-specific guidance and `vendor/frontend-slides/` as the richer template/style implementation library.
 
@@ -25,6 +25,7 @@ If any answer is missing, pause and fix the logic before designing slides.
 ### Phase 0: Detect Task
 
 - **New deck**: user wants a招商 PPT/HTML deck from a brief.
+- **Marketing idea generation**: user wants招商营销点子、活动创意、品牌合作玩法, or campaign IP directions before writing a deck/document.
 - **New proposal document**: user wants a招商方案/招商手册/Feishu/Lark/Docs-style document from a brief.
 - **PPT to proposal document**: user provides an existing招商 PPT/PDF and wants it expanded into a readable, executable招商方案 document.
 - **Proposal document to PPT**: user provides a招商方案 document and wants a sharper deck/storyline.
@@ -40,6 +41,7 @@ Do not ask generic presentation questions first. Ask only what changes the招商
 - Brand target: Which brand categories or named brands are being invited?
 - Brand objective: Is the pitch selling曝光,转化,新品首发,人群渗透,信任背书,内容资产, or综合品效?
 - Hard assets: What resources are real or planned: traffic, topic, H5, search, live room, creators, celebrities, store/shelf, onsite event, media PR?
+- Idea scope: Are we inventing from scratch, packaging an existing idea into a sellable招商 property, or generating alternatives for comparison?
 - Proof: What data, cases, category insight, or user trend can be cited?
 - Visual assets: What images/logos/key visuals/product shots/event photos/reference decks can be used? If none are provided, should the agent source public images, generate campaign visuals, or use clearly marked placeholders?
 - Identity/contact: What exact organizer/brand name, logo, and contact details may appear? If the user does not provide them, leave them out.
@@ -54,6 +56,8 @@ For sample-learning tasks, do not manually inspect only a few obvious documents 
 ### Phase 2: Build The招商 Story
 
 Use `references/pitch-method.md` for the story patterns and page modules.
+
+If the task is marketing idea generation, use the idea generation rules in `references/pitch-method.md` before building any page order. A usable招商 idea must include: user participation reason, brand role, platform/resource amplification path, sellable rights, execution rhythm, and risks or missing inputs.
 
 Default story spine:
 
@@ -98,6 +102,16 @@ For proposal documents, assemble sections instead of slides:
 - 七、活动管控规范
 
 For PPT-to-document conversion, do not copy slide text mechanically. Extract the slide logic, then expand each slide into readable paragraphs, tables, and execution notes.
+
+For marketing idea generation, return each idea in a compact decision format:
+
+- Idea name and one-line concept.
+- User tension or node opportunity.
+- Core mechanism: what users/creators/brands/platform do.
+- Brand entry: suitable categories, brand role, and visible touchpoints.
+- Sellable rights: sponsorship slots, content/resource package, exclusivity, deliverables.
+- Conversion or asset path: search/live/store/H5/onsite/PR/report.
+- Risk and missing information.
 
 ### Phase 3.5: Theme Visual Research And Image Plan
 
@@ -160,6 +174,7 @@ Before delivery, check the deck against this list:
 - The final slide is a simple closing/invitation slide unless the user provided exact contact details and requested them.
 - The first 3 pages make the opportunity impossible to ignore.
 - The concept is not just a name; it changes the participation mechanism.
+- Marketing ideas are招商-ready, not just creative slogans: each has brand roles, sellable resources, and execution constraints.
 - Every major玩法 has a brand entry point and user-facing reason.
 - Rights/resources are specific enough for a sales conversation.
 - The roadmap shows rhythm, not just dates.
