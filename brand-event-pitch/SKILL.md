@@ -73,15 +73,18 @@ Build decks from page types, not from templates:
 - Case/proof page: comparable campaign, past result, category signal.
 - Closing page: cooperation invitation.
 
-### Phase 3.5: Image Plan
+### Phase 3.5: Theme Visual Research And Image Plan
 
-Before generating a designed deck, read `references/image-rules.md` and create an image plan. 招商 decks are image-led: most strong pages should be built around theme-relevant visuals, with text as sharp claims and annotations.
+Before generating a designed deck, read `references/image-rules.md`, understand the user's招商主题, and create a theme visual research plan. 招商 decks are image-led: most strong pages should be built around theme-relevant visuals, with text as sharp claims and annotations.
 
 The image plan must specify:
 
+- the visual world implied by the topic: season, crowd, city, category, product scene, cultural mood, event atmosphere, colors, texture, and motion
 - which pages need hero images, collages, product/category imagery, event scenery, creator/people imagery, maps, or UI/resource mockups
 - where each image comes from: user-provided asset, public/sourceable image, generated image, screenshot/mockup, or intentional placeholder
 - what business point each image proves or dramatizes
+
+If the user provides no usable images, proactively source theme-relevant public images or generate theme visuals when the environment supports it. If the environment cannot access image search or image generation, state the missing capability and use clearly marked visual placeholders instead of silently producing a text-only deck.
 
 Do not generate a final HTML deck that is all text unless the user explicitly asks for text-only output.
 
@@ -125,6 +128,7 @@ Only include identity or contact text when the user explicitly provides the exac
 Before delivery, check the deck against this list:
 
 - At least 60% of non-table slides use meaningful imagery or visual mockups tied to the招商 theme.
+- Images are theme-specific, not generic decoration. The deck visibly reflects the user's event/category/crowd/season/place.
 - The first 3 pages include at least one strong theme image or campaign-world visual; no text-only opening sequence.
 - No unauthorized top-left header/chrome text, department label, platform label, author name, email, or contact block appears anywhere.
 - The final slide is a simple closing/invitation slide unless the user provided exact contact details and requested them.
