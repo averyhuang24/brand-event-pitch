@@ -5,6 +5,8 @@
 它适合这些任务：
 
 - 生成品牌招商 PPT 的故事线和页序
+- 生成招商方案 / 招商手册 / 飞书文档式方案
+- 将已有招商 PPT 扩写成可阅读、可执行的招商方案文档
 - 改写营销活动招商方案
 - 审查招商 PPT 的商业逻辑、资源表达和页面顺序
 - 将成熟故事线继续扩展成 HTML slides
@@ -28,6 +30,13 @@ cp -R brand-event-pitch ~/.codex/skills/
 活动是：夏季消费趋势营销IP
 目标品牌：美妆、食品、家电品牌
 输出：先给我15页左右的招商故事线和页序
+```
+
+也可以用于文档版方案：
+
+```text
+用 $brand-event-pitch，把这个招商PPT扩写成飞书文档形式的招商方案。
+要求：保留招商逻辑，补充项目背景、核心亮点、玩法说明、资源权益表、Roadmap和合作流程。
 ```
 
 ### Claude Code 或其他支持 skills 的 agent
@@ -66,7 +75,7 @@ https://github.com/your-org/brand-event-pitch
 - 已有资源：话题、H5、搜索、直播间、达人、明星、货架、主会场、PR、线下场。
 - 视觉素材：品牌 logo、产品图、活动 KV、参考图片、场地照片、截图；如果没有，请说明是否可以找公开图片或生成主题图。
 - 署名/联系人：如果需要展示组织名、负责人、邮箱或电话，请提供准确文字；否则默认不生成。
-- 输出形式：故事线、页序、页面文案、HTML slides、审稿意见。
+- 输出形式：故事线、页序、页面文案、HTML slides、招商方案文档、审稿意见。
 
 ## 目录
 
@@ -79,6 +88,7 @@ brand-event-pitch/
     ├── pitch-method.md
     ├── chrome-rules.md
     ├── image-rules.md
+    ├── proposal-doc-method.md
     ├── sample-learnings.md
     └── style-presets.md
 └── vendor/

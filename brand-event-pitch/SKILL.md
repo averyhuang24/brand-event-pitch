@@ -1,11 +1,11 @@
 ---
 name: brand-event-pitch
-description: Create or improve marketing-event brand招商 decks. Use when the user needs a PPT/HTML deck, outline, story, or review for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
+description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs a PPT/HTML deck, Feishu/Lark/Docs-style招商方案, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
 ---
 
 # Brand Event Pitch
 
-Build招商 decks for marketing events, campaign IPs, sponsorship packages, and brand partnerships. The job is not to make a pretty slide deck; it is to make a brand believe: **this event is a timely, credible, scarce growth field, and my brand has a clear role inside it.**
+Build招商 decks and招商方案 documents for marketing events, campaign IPs, sponsorship packages, and brand partnerships. The job is not to make pretty pages; it is to make a brand believe: **this event is a timely, credible, scarce growth field, and my brand has a clear role inside it.**
 
 This skill bundles the public `frontend-slides` visual resources under `vendor/frontend-slides/` and adapts them for招商 decks. Use `references/style-presets.md` as招商-specific guidance and `vendor/frontend-slides/` as the richer template/style implementation library.
 
@@ -25,6 +25,9 @@ If any answer is missing, pause and fix the logic before designing slides.
 ### Phase 0: Detect Task
 
 - **New deck**: user wants a招商 PPT/HTML deck from a brief.
+- **New proposal document**: user wants a招商方案/招商手册/Feishu-style document from a brief.
+- **PPT to proposal document**: user provides an existing招商 PPT and wants it expanded into a readable, executable招商方案 document.
+- **Proposal document to PPT**: user provides a招商方案 document and wants a sharper deck/storyline.
 - **Sample learning**: user provides reference decks; extract rules into `references/` or a task-specific summary.
 - **Deck review**: user asks whether a招商 deck works; review story, commercial logic, page order, and visual clarity.
 - **Deck rewrite**: user has an outline or draft; rebuild the story before polishing slides.
@@ -40,7 +43,7 @@ Do not ask generic presentation questions first. Ask only what changes the招商
 - Proof: What data, cases, category insight, or user trend can be cited?
 - Visual assets: What images/logos/key visuals/product shots/event photos/reference decks can be used? If none are provided, should the agent source public images, generate campaign visuals, or use clearly marked placeholders?
 - Identity/contact: What exact organizer/brand name, logo, and contact details may appear? If the user does not provide them, leave them out.
-- Output: HTML deck, PPTX-style outline, page-by-page copy, review comments, or export-ready PDF.
+- Output: HTML deck, PPTX-style outline, page-by-page copy, Feishu/Lark/Docs-style招商方案, review comments, or export-ready PDF.
 
 If these are unknown, proceed with a clearly marked assumption set and surface the missing items as risks.
 
@@ -58,6 +61,8 @@ Default story spine:
 6. **Quantify resources and certainty**: traffic, slots, deliverables, timeline, rights, exclusivity.
 7. **Close with cooperation path**: packages, roadmap, next steps, and a simple closing slide. Do not add contact details unless provided.
 
+If the target output is a document, also read `references/proposal-doc-method.md` before drafting. Documents need more explicit explanation, tables, resources, and execution detail than decks.
+
 ### Phase 3: Page-Type Assembly
 
 Build decks from page types, not from templates:
@@ -72,6 +77,21 @@ Build decks from page types, not from templates:
 - Package page: tiered cooperation packages, scarcity, industry exclusivity, deliverables.
 - Case/proof page: comparable campaign, past result, category signal.
 - Closing page: cooperation invitation.
+
+For proposal documents, assemble sections instead of slides:
+
+-招商信息速览
+-项目背景
+-项目定位与核心主题
+-核心亮点/合作价值
+-项目规划与内容玩法
+-品牌合作方式
+-资源权益与招商席位
+-执行节奏/Roadmap
+-交付物/KPI/评估口径
+-合作流程与注意事项
+
+For PPT-to-document conversion, do not copy slide text mechanically. Extract the slide logic, then expand each slide into readable paragraphs, tables, and execution notes.
 
 ### Phase 3.5: Theme Visual Research And Image Plan
 
@@ -144,6 +164,7 @@ Before delivery, check the deck against this list:
 ## References
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
+- `references/proposal-doc-method.md`:招商方案/招商手册 document structure, PPT-to-document conversion rules, and Feishu/Lark-style formatting.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.
 - `references/image-rules.md`: image-led deck rules, image planning, sourcing, and no-text-only constraints.
 - `references/chrome-rules.md`: rules for page headers, footers, logos, organizer names, and contact details.

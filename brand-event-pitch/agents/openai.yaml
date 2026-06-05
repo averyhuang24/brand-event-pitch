@@ -1,8 +1,8 @@
 interface:
   display_name: "Brand Event Pitch"
-  short_description: "品牌招商与营销活动PPT"
+  short_description: "品牌招商PPT与方案文档"
   brand_color: "#FE2C55"
-  default_prompt: "Use $brand-event-pitch to create a marketing-event brand招商 deck."
+  default_prompt: "Use $brand-event-pitch to create a marketing-event brand招商 deck or proposal document."
 
 policy:
   allow_implicit_invocation: true
