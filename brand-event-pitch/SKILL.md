@@ -1,6 +1,6 @@
 ---
 name: brand-event-pitch
-description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs a PPT/HTML deck, Feishu/Lark/Docs-style招商方案, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
+description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs a PPT/HTML deck, Feishu/Lark/Docs-style招商方案,招商手册, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
 ---
 
 # Brand Event Pitch
@@ -25,10 +25,10 @@ If any answer is missing, pause and fix the logic before designing slides.
 ### Phase 0: Detect Task
 
 - **New deck**: user wants a招商 PPT/HTML deck from a brief.
-- **New proposal document**: user wants a招商方案/招商手册/Feishu-style document from a brief.
-- **PPT to proposal document**: user provides an existing招商 PPT and wants it expanded into a readable, executable招商方案 document.
+- **New proposal document**: user wants a招商方案/招商手册/Feishu/Lark/Docs-style document from a brief.
+- **PPT to proposal document**: user provides an existing招商 PPT/PDF and wants it expanded into a readable, executable招商方案 document.
 - **Proposal document to PPT**: user provides a招商方案 document and wants a sharper deck/storyline.
-- **Sample learning**: user provides reference decks; extract rules into `references/` or a task-specific summary.
+- **Sample learning**: user provides Feishu/Lark/Docs/PPT entry points; read `references/sample-learning-task.md`, crawl the allowed scope, and extract rules into `references/` or a task-specific summary.
 - **Deck review**: user asks whether a招商 deck works; review story, commercial logic, page order, and visual clarity.
 - **Deck rewrite**: user has an outline or draft; rebuild the story before polishing slides.
 
@@ -47,6 +47,10 @@ Do not ask generic presentation questions first. Ask only what changes the招商
 
 If these are unknown, proceed with a clearly marked assumption set and surface the missing items as risks.
 
+When the user provides Feishu/Lark document references, first try to read the source through available document tools in the current environment. If direct Feishu access is unavailable, ask for an exported Markdown, DOCX, PDF, PPTX, or page images. Do not pretend to have learned private document formatting from an inaccessible link.
+
+For sample-learning tasks, do not manually inspect only a few obvious documents unless the user asks for a quick read. Treat the entry as a corpus: discover files, classify them, extract patterns, cluster repeated decisions, and update the learning summary with abstract rules only.
+
 ### Phase 2: Build The招商 Story
 
 Use `references/pitch-method.md` for the story patterns and page modules.
@@ -61,7 +65,11 @@ Default story spine:
 6. **Quantify resources and certainty**: traffic, slots, deliverables, timeline, rights, exclusivity.
 7. **Close with cooperation path**: packages, roadmap, next steps, and a simple closing slide. Do not add contact details unless provided.
 
-If the target output is a document, also read `references/proposal-doc-method.md` before drafting. Documents need more explicit explanation, tables, resources, and execution detail than decks.
+If the target output is a document, also read `references/proposal-doc-method.md` before drafting. Documents need more explicit explanation, tables, resources, execution detail, and risk notes than decks.
+
+When the user does not specify a document format, use the default proposal outline in `references/proposal-doc-method.md` exactly: front callout with project name, project highlights, project introduction, and招商信息, followed by seven sections from项目洞察 to活动管控规范.
+
+For the default proposal outline, the下单步骤 and活动管控规范 sections must use the fixed wording in `references/proposal-doc-method.md`; only replace recipient, cc, project, brand, price, and package placeholders when the user provides exact values.
 
 ### Phase 3: Page-Type Assembly
 
@@ -80,16 +88,14 @@ Build decks from page types, not from templates:
 
 For proposal documents, assemble sections instead of slides:
 
--招商信息速览
--项目背景
--项目定位与核心主题
--核心亮点/合作价值
--项目规划与内容玩法
--品牌合作方式
--资源权益与招商席位
--执行节奏/Roadmap
--交付物/KPI/评估口径
--合作流程与注意事项
+- 高亮块：项目名称、项目亮点、项目介绍、招商信息
+- 一、项目洞察
+- 二、项目介绍
+- 三、核心玩法
+- 四、招商权益概览
+- 五、招商规划
+- 六、下单步骤
+- 七、活动管控规范
 
 For PPT-to-document conversion, do not copy slide text mechanically. Extract the slide logic, then expand each slide into readable paragraphs, tables, and execution notes.
 
@@ -161,10 +167,19 @@ Before delivery, check the deck against this list:
 - Brand benefit is phrased in business language: reach, trust, conversion, category ownership, content assets, or new product momentum.
 - Visual hierarchy supports fast executive reading.
 
+For Feishu/Lark/Docs-style招商方案, also check:
+
+- The opening uses the required callout with 项目名称、项目亮点、项目介绍、招商信息.
+- The document can be read without a presenter explaining the slides.
+- Key resources, seats, prices, timelines, deliverables, and constraints are tabled or clearly marked as `待确认`.
+- It does not invent prices, contact details, logos, organizer names, or final KPI commitments.
+- It is not a PPT page-by-page transcription.
+
 ## References
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
 - `references/proposal-doc-method.md`:招商方案/招商手册 document structure, PPT-to-document conversion rules, and Feishu/Lark-style formatting.
+- `references/sample-learning-task.md`: batch learning protocol for Feishu/Lark/Docs/PPT招商 sample corpora.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.
 - `references/image-rules.md`: image-led deck rules, image planning, sourcing, and no-text-only constraints.
 - `references/chrome-rules.md`: rules for page headers, footers, logos, organizer names, and contact details.
