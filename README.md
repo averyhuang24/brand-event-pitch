@@ -65,6 +65,44 @@ cp -R brand-event-pitch ~/.claude/skills/
 https://github.com/your-org/brand-event-pitch
 ```
 
+## 更新通知与手动更新
+
+这个 skill 不会主动推送更新到用户电脑。建议使用 GitHub 的通知机制：
+
+1. 打开 GitHub 仓库页面。
+2. 点击右上角 **Watch**。
+3. 选择 **Custom**。
+4. 勾选 **Releases**。
+
+这样每次发布新版 Release 时，安装过的用户都会收到 GitHub 通知，然后手动更新。
+
+当前版本见：
+
+```text
+brand-event-pitch/VERSION
+```
+
+手动更新方式：
+
+```bash
+git pull
+rm -rf ~/.codex/skills/brand-event-pitch
+cp -R brand-event-pitch ~/.codex/skills/
+```
+
+Claude Code 用户可替换为对应目录：
+
+```bash
+rm -rf ~/.claude/skills/brand-event-pitch
+cp -R brand-event-pitch ~/.claude/skills/
+```
+
+维护者发布新版本时，建议同步更新：
+
+- `brand-event-pitch/VERSION`
+- `CHANGELOG.md`
+- GitHub Release notes
+
 ## 推荐输入
 
 最好提供这些信息：
