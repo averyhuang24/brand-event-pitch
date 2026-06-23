@@ -89,6 +89,9 @@ Build decks from page types, not from templates:
 - Package page: tiered cooperation packages, scarcity, industry exclusivity, deliverables.
 - Case/proof page: comparable campaign, past result, category signal.
 - Closing page: cooperation invitation.
+- Local business page: city/trade-area/store insight, merchant route, transaction handoff, and down-order definition.
+- Interest group page: circle tension, host/leader role, "group session" mechanism, brand props/tasks, and live/clip tail.
+- AI co-creation page: public problem, creator/user submission, brand challenge, judging/awards, and reusable asset library.
 
 For proposal documents, assemble sections instead of slides:
 
@@ -137,6 +140,9 @@ If the user wants a designed deck, choose a visual system after the招商 story 
 - Do not let style exploration replace commercial thinking.
 - For brand招商, favor high-energy but commercially legible design: strong title statements, large data, modular resource tables, campaign-world visuals, and clear brand slots.
 - Avoid generic pitch-deck minimalism when the event needs IP感; avoid decorative chaos when selling resource certainty.
+- For local life-service or city business projects, show real cities, stores, routes, redemption paths, merchant clusters, and transaction components; do not make it look like only a city image campaign.
+- For interest/circle projects, visualize the "局": hosts, teams, gear, tasks, live-room moments, offline tables/routes, and clip-ready highlights.
+- For AI/technology projects, visualize the competition or co-creation system: prompt/material input, creator output, judging, awards, exhibition, and brand-owned assets.
 
 Default visual workflow:
 
