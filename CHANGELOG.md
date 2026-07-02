@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+- Added beauty and fashion category method.
+- Added trend ownership, treasure list/ranking, style lab, beauty lab, and occasion map campaign formulas.
+- Added beauty/fashion visual and commercialization checklist.
+
 ## 0.2.0
 
 - Added proposal document generation workflow.

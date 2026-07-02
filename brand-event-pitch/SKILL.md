@@ -59,6 +59,8 @@ Use `references/pitch-method.md` for the story patterns and page modules.
 
 If the task is marketing idea generation, use the idea generation rules in `references/pitch-method.md` before building any page order. A usable招商 idea must include: user participation reason, brand role, platform/resource amplification path, sellable rights, execution rhythm, and risks or missing inputs.
 
+If the category involves beauty, skincare, personal care, fragrance, apparel, fashion, styling, outfits, seasonal newness, trend reports, or large-style-category招商, also read `references/beauty-fashion-method.md`. In these categories, the idea must sell trend ownership, suitability solving, visual desire, and a proof-to-conversion loop rather than generic exposure.
+
 Default story spine:
 
 1. **Open with the market moment**: one sharp human/social/category tension.
@@ -143,6 +145,7 @@ If the user wants a designed deck, choose a visual system after the招商 story 
 - For local life-service or city business projects, show real cities, stores, routes, redemption paths, merchant clusters, and transaction components; do not make it look like only a city image campaign.
 - For interest/circle projects, visualize the "局": hosts, teams, gear, tasks, live-room moments, offline tables/routes, and clip-ready highlights.
 - For AI/technology projects, visualize the competition or co-creation system: prompt/material input, creator output, judging, awards, exhibition, and brand-owned assets.
+- For beauty/fashion projects, visualize the actual look/effect/item/texture/occasion: model looks, product grids, outfit boards, rankings, before/after, texture closeups, style maps, and creator tutorials. Do not make it a generic lifestyle deck.
 
 Default visual workflow:
 
@@ -199,6 +202,7 @@ For Feishu/Lark/Docs-style招商方案, also check:
 ## References
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
+- `references/beauty-fashion-method.md`: beauty/fashion category logic, trend IP packaging, style/beauty lab mechanisms, ranking/list formats, and commercialization checklist.
 - `references/proposal-doc-method.md`:招商方案/招商手册 document structure, PPT-to-document conversion rules, and Feishu/Lark-style formatting.
 - `references/sample-learning-task.md`: batch learning protocol for Feishu/Lark/Docs/PPT招商 sample corpora.
 - `references/sample-learnings.md`: distilled lessons from reference招商 decks.

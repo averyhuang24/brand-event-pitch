@@ -5,6 +5,7 @@
 它适合这些任务：
 
 - 基于活动节点、目标品牌和平台资源，发想可招商的营销点子 / 活动创意 / 品牌合作玩法
+- 支持美妆、个护、服饰、穿搭等大时尚行业的趋势 IP、榜单、风格实验室、场景地图招商包装
 - 生成品牌招商 PPT 的故事线和页序
 - 生成招商方案 / 招商手册 / 飞书文档式方案
 - 将已有招商 PPT 扩写成可阅读、可执行的招商方案文档
@@ -145,6 +146,7 @@ cp -R brand-event-pitch ~/.claude/skills/
 
 - 活动/节点：比如大促节点、赛事节点、城市活动、暑期消费季、平台 IP。
 - 目标品牌：品类或具体品牌。
+- 行业/品类：如果是美妆、护肤、香氛、服饰、穿搭、鞋包配饰等，请说明目标品类和季节/场景。
 - 品牌目标：曝光、转化、新品首发、信任背书、内容资产、品类心智。
 - 已有资源：话题、H5、搜索、直播间、达人、明星、货架、主会场、PR、线下场。
 - 创意需求：是从 0 发想营销点子，还是把已有想法包装成可招商项目。
@@ -167,13 +169,14 @@ brand-event-pitch/
 ├── agents/
 │   └── openai.yaml
 ├── references/
-    ├── pitch-method.md
-    ├── chrome-rules.md
-    ├── image-rules.md
-    ├── proposal-doc-method.md
-    ├── sample-learning-task.md
-    ├── sample-learnings.md
-    └── style-presets.md
+│   ├── beauty-fashion-method.md
+│   ├── pitch-method.md
+│   ├── chrome-rules.md
+│   ├── image-rules.md
+│   ├── proposal-doc-method.md
+│   ├── sample-learning-task.md
+│   ├── sample-learnings.md
+│   └── style-presets.md
 └── vendor/
     └── frontend-slides/
         ├── LICENSE
