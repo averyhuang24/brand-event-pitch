@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0
+
+- Added hot-content-inspired招商 ideation method.
+- Added content mechanism extraction rules for viral videos, livestreams, variety shows, overseas formats, AI玩法, micro-contests, and festival behavior.
+- Added source motif/watch reason to marketing idea output.
+
 ## 0.3.0
 
 - Added beauty and fashion category method.

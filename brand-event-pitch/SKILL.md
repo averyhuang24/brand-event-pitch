@@ -1,6 +1,6 @@
 ---
 name: brand-event-pitch
-description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs marketing-event idea generation, brand招商创意, a PPT/HTML deck, Feishu/Lark/Docs-style招商方案,招商手册, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
+description: Create or improve marketing-event brand招商 decks and招商方案 documents. Use when the user needs marketing-event idea generation, hot-content-inspired招商创意, brand招商创意, a PPT/HTML deck, Feishu/Lark/Docs-style招商方案,招商手册, outline, story, review, or PPT-to-document conversion for brand sponsorship, partnership, or campaign招商, including major campaign nodes, platform IPs, brand resource packages, activity mechanics, rights design, or commercial pitch storytelling.
 ---
 
 # Brand Event Pitch
@@ -26,6 +26,7 @@ If any answer is missing, pause and fix the logic before designing slides.
 
 - **New deck**: user wants a招商 PPT/HTML deck from a brief.
 - **Marketing idea generation**: user wants招商营销点子、活动创意、品牌合作玩法, or campaign IP directions before writing a deck/document.
+- **Hot content ideation**: user provides trending content notes, weekly topic meeting inputs, viral short videos, livestream cases, variety shows, overseas formats, AI玩法, holiday behavior research, or asks for招商脑暴 based on current popular content.
 - **New proposal document**: user wants a招商方案/招商手册/Feishu/Lark/Docs-style document from a brief.
 - **PPT to proposal document**: user provides an existing招商 PPT/PDF and wants it expanded into a readable, executable招商方案 document.
 - **Proposal document to PPT**: user provides a招商方案 document and wants a sharper deck/storyline.
@@ -58,6 +59,8 @@ For sample-learning tasks, do not manually inspect only a few obvious documents 
 Use `references/pitch-method.md` for the story patterns and page modules.
 
 If the task is marketing idea generation, use the idea generation rules in `references/pitch-method.md` before building any page order. A usable招商 idea must include: user participation reason, brand role, platform/resource amplification path, sellable rights, execution rhythm, and risks or missing inputs.
+
+If the task uses trending content, viral formats, livestream/short-video cases, variety shows, overseas content formats, AI玩法, holiday behavior research, or weekly topic notes as input, also read `references/content-trend-method.md`. Extract the repeatable content mechanism first; do not copy named shows or memes directly.
 
 If the category involves beauty, skincare, personal care, fragrance, apparel, fashion, styling, outfits, seasonal newness, trend reports, or large-style-category招商, also read `references/beauty-fashion-method.md`. In these categories, the idea must sell trend ownership, suitability solving, visual desire, and a proof-to-conversion loop rather than generic exposure.
 
@@ -94,6 +97,7 @@ Build decks from page types, not from templates:
 - Local business page: city/trade-area/store insight, merchant route, transaction handoff, and down-order definition.
 - Interest group page: circle tension, host/leader role, "group session" mechanism, brand props/tasks, and live/clip tail.
 - AI co-creation page: public problem, creator/user submission, brand challenge, judging/awards, and reusable asset library.
+- Hot-content mechanism page: source content pattern, watch reason, repeatable engine, user action, brand role, and business handoff.
 
 For proposal documents, assemble sections instead of slides:
 
@@ -111,6 +115,7 @@ For PPT-to-document conversion, do not copy slide text mechanically. Extract the
 For marketing idea generation, return each idea in a compact decision format:
 
 - Idea name and one-line concept.
+- Source content motif or watch reason, if the idea comes from trending content.
 - User tension or node opportunity.
 - Core mechanism: what users/creators/brands/platform do.
 - Brand entry: suitable categories, brand role, and visible touchpoints.
@@ -202,6 +207,7 @@ For Feishu/Lark/Docs-style招商方案, also check:
 ## References
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
+- `references/content-trend-method.md`: hot-content-inspired招商 ideation, viral format extraction, content mechanism patterns, and brand role conversion.
 - `references/beauty-fashion-method.md`: beauty/fashion category logic, trend IP packaging, style/beauty lab mechanisms, ranking/list formats, and commercialization checklist.
 - `references/proposal-doc-method.md`:招商方案/招商手册 document structure, PPT-to-document conversion rules, and Feishu/Lark-style formatting.
 - `references/sample-learning-task.md`: batch learning protocol for Feishu/Lark/Docs/PPT招商 sample corpora.
