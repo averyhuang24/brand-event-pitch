@@ -14,6 +14,8 @@ Before claiming current platform insight, identify the available source route:
 
 If only web-indexed sources are available, say the research is a public-web approximation, not a complete in-app trend scan. Do not pretend to have accessed Xiaohongshu or Douyin native search.
 
+If the user wants this capability installed or bundled for non-technical teammates, read `../integrations/trend-mcp-pack.md`. The default trend layer is read-only: search, detail, comments, transcript, and metadata only.
+
 ## Search Plan
 
 Build 6-10 searches around the user's theme. Mix these dimensions:

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.0
+
+- Added optional Trend MCP Pack for non-technical users.
+- Documented recommended Xiaohongshu and Douyin MCP integration strategy.
+- Added a read-only tool allowlist for trend research and blocked social write actions by default.
+- Added installer guidance for agents to configure MCPs without requiring end users to understand MCP.
+
 ## 0.5.0
 
 - Added live trend research workflow before hot-content-inspired招商 ideation.

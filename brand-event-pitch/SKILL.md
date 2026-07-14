@@ -59,6 +59,8 @@ For sample-learning tasks, do not manually inspect only a few obvious documents 
 
 If the user asks for current/viral/hot/popular idea generation from only a theme, first read `references/live-trend-research.md` and run a trend research pass before ideating.
 
+If the user asks to enable/install/bundle Xiaohongshu or Douyin trend search for non-technical users, also read `integrations/trend-mcp-pack.md`. Keep the integration read-only for ideation: search, detail, comments, transcript/metadata. Do not use publishing, liking, favoriting, commenting, following, messaging, or account-growth actions unless the user explicitly asks for a separate publishing/operations workflow.
+
 Tool priority:
 
 1. Use dedicated Xiaohongshu/RedNote and Douyin/TikTok China MCPs, plugins, or connectors when available.
@@ -222,6 +224,7 @@ For Feishu/Lark/Docs-style招商方案, also check:
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
 - `references/live-trend-research.md`: live Xiaohongshu/Douyin/web trend research workflow before hot-content招商 ideation.
+- `integrations/trend-mcp-pack.md`: optional read-only Xiaohongshu/Douyin MCP integration plan for non-technical users.
 - `references/content-trend-method.md`: hot-content-inspired招商 ideation, viral format extraction, content mechanism patterns, and brand role conversion.
 - `references/beauty-fashion-method.md`: beauty/fashion category logic, trend IP packaging, style/beauty lab mechanisms, ranking/list formats, and commercialization checklist.
 - `references/proposal-doc-method.md`:招商方案/招商手册 document structure, PPT-to-document conversion rules, and Feishu/Lark-style formatting.
