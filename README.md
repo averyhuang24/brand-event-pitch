@@ -57,12 +57,14 @@ cp -R brand-event-pitch ~/.codex/skills/
 
 说明：如果当前 agent 已接入小红书/抖音 MCP 或插件，skill 会优先使用平台原生搜索；如果没有，会用公开网页搜索做近似研究，并标注为 `web-indexed`；如果公开搜索也不够，会要求用户提供链接、截图、选题会记录或导出内容，不会假装已经看过站内热榜。
 
+默认规则：只要用户让这个 skill 做营销 idea 脑爆 / 活动创意 / 招商 IP 方向，skill 会默认先做趋势研究；只有用户明确说“不要搜索”“只用内部经验”或只是包装一个已确定想法时，才跳过趋势研究。
+
 ### 趋势增强包（可选）
 
 如果用户不懂 MCP，可以直接把仓库链接发给 agent，并说：
 
 ```text
-请安装 brand-event-pitch，并启用趋势增强能力。用户不懂 MCP，请你按仓库里的 integrations/trend-mcp-pack.md 完成小红书/抖音只读趋势研究工具配置。
+请安装 brand-event-pitch，并启用趋势增强能力。用户不懂 MCP，请你按仓库里的 integrations/trend-mcp-pack.md 完成小红书/抖音只读趋势研究工具配置。后续用户只要说“用这个 skill 脑爆营销 idea”，请默认先做趋势扫描。
 ```
 
 趋势增强包默认只用于招商脑爆前的资料研究：

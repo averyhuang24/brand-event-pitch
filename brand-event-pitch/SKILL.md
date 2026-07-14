@@ -25,7 +25,7 @@ If any answer is missing, pause and fix the logic before designing slides.
 ### Phase 0: Detect Task
 
 - **New deck**: user wants a招商 PPT/HTML deck from a brief.
-- **Marketing idea generation**: user wants招商营销点子、活动创意、品牌合作玩法, or campaign IP directions before writing a deck/document.
+- **Marketing idea generation**: user wants招商营销点子、活动创意、品牌合作玩法, or campaign IP directions before writing a deck/document. Default to live trend research first unless the user explicitly asks not to search or the task is only packaging a fixed existing idea.
 - **Hot content ideation**: user provides trending content notes, weekly topic meeting inputs, viral short videos, livestream cases, variety shows, overseas formats, AI玩法, holiday behavior research, or asks for招商脑暴 based on current popular content.
 - **Live trend ideation**: user gives only a theme/category/node and asks for当下流行玩法、爆火内容、小红书/抖音灵感、实时热点招商脑暴, or says the idea should be based on current social content. Do trend research first; do not rely only on stored references.
 - **New proposal document**: user wants a招商方案/招商手册/Feishu/Lark/Docs-style document from a brief.
@@ -57,9 +57,9 @@ For sample-learning tasks, do not manually inspect only a few obvious documents 
 
 ### Phase 1.5: Live Trend Research
 
-If the user asks for current/viral/hot/popular idea generation from only a theme, first read `references/live-trend-research.md` and run a trend research pass before ideating.
+For marketing idea generation, brainstorming, 活动创意, campaign IP directions, or hot-content ideation, default to a trend research pass before ideating. First read `references/live-trend-research.md`. Skip live trend research only when the user explicitly says not to search, the task is purely packaging a fixed existing idea, or the user only asks for an internal-framework answer.
 
-If the user asks to enable/install/bundle Xiaohongshu or Douyin trend search for non-technical users, also read `integrations/trend-mcp-pack.md`. Keep the integration read-only for ideation: search, detail, comments, transcript/metadata. Do not use publishing, liking, favoriting, commenting, following, messaging, or account-growth actions unless the user explicitly asks for a separate publishing/operations workflow.
+If platform-native trend MCPs are not available during an idea-generation task, say that the trend layer is not enabled, then fall back to web-indexed search or user-provided materials. If the user asks to install, enable, or bundle Xiaohongshu/Douyin trend search for non-technical users, read `integrations/trend-mcp-pack.md`. Keep the integration read-only for ideation: search, detail, comments, transcript/metadata. Do not use publishing, liking, favoriting, commenting, following, messaging, or account-growth actions unless the user explicitly asks for a separate publishing/operations workflow.
 
 Tool priority:
 

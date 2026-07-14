@@ -6,6 +6,7 @@
 - Documented recommended Xiaohongshu and Douyin MCP integration strategy.
 - Added a read-only tool allowlist for trend research and blocked social write actions by default.
 - Added installer guidance for agents to configure MCPs without requiring end users to understand MCP.
+- Made trend research the default first step for marketing idea brainstorming unless explicitly skipped.
 
 ## 0.5.0
 

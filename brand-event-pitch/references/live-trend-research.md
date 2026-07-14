@@ -1,6 +1,6 @@
 # Live Trend Research Workflow
 
-Use this reference when the user gives a theme/category/node and asks for current hot content, viral short-video ideas, Xiaohongshu/RedNote inspiration, Douyin inspiration, or 当下爆火玩法 before招商 ideation.
+Use this reference whenever the user asks for招商营销点子、活动创意、campaign IP directions, hot-content-inspired ideas, or gives a theme/category/node and asks for brain-storming. Trend research is the default first step unless the user explicitly says not to search, the task is only packaging a fixed existing idea, or the user only asks for an internal-framework answer.
 
 The goal is not to list hot topics. The goal is to find live social content signals, extract repeatable mechanisms, and convert them into brand-sellable招商 ideas.
 
@@ -14,7 +14,7 @@ Before claiming current platform insight, identify the available source route:
 
 If only web-indexed sources are available, say the research is a public-web approximation, not a complete in-app trend scan. Do not pretend to have accessed Xiaohongshu or Douyin native search.
 
-If the user wants this capability installed or bundled for non-technical teammates, read `../integrations/trend-mcp-pack.md`. The default trend layer is read-only: search, detail, comments, transcript, and metadata only.
+If platform-native MCPs are not enabled, do not stop. State the missing capability, use web-indexed search if available, and tell the user that enabling the optional Trend MCP Pack will improve Xiaohongshu/Douyin coverage. If the user wants this capability installed or bundled for non-technical teammates, read `../integrations/trend-mcp-pack.md`. The default trend layer is read-only: search, detail, comments, transcript, and metadata only.
 
 ## Search Plan
 
