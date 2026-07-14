@@ -27,6 +27,7 @@ If any answer is missing, pause and fix the logic before designing slides.
 - **New deck**: user wants a招商 PPT/HTML deck from a brief.
 - **Marketing idea generation**: user wants招商营销点子、活动创意、品牌合作玩法, or campaign IP directions before writing a deck/document.
 - **Hot content ideation**: user provides trending content notes, weekly topic meeting inputs, viral short videos, livestream cases, variety shows, overseas formats, AI玩法, holiday behavior research, or asks for招商脑暴 based on current popular content.
+- **Live trend ideation**: user gives only a theme/category/node and asks for当下流行玩法、爆火内容、小红书/抖音灵感、实时热点招商脑暴, or says the idea should be based on current social content. Do trend research first; do not rely only on stored references.
 - **New proposal document**: user wants a招商方案/招商手册/Feishu/Lark/Docs-style document from a brief.
 - **PPT to proposal document**: user provides an existing招商 PPT/PDF and wants it expanded into a readable, executable招商方案 document.
 - **Proposal document to PPT**: user provides a招商方案 document and wants a sharper deck/storyline.
@@ -54,13 +55,25 @@ When the user provides Feishu/Lark document references, first try to read the so
 
 For sample-learning tasks, do not manually inspect only a few obvious documents unless the user asks for a quick read. Treat the entry as a corpus: discover files, classify them, extract patterns, cluster repeated decisions, and update the learning summary with abstract rules only.
 
+### Phase 1.5: Live Trend Research
+
+If the user asks for current/viral/hot/popular idea generation from only a theme, first read `references/live-trend-research.md` and run a trend research pass before ideating.
+
+Tool priority:
+
+1. Use dedicated Xiaohongshu/RedNote and Douyin/TikTok China MCPs, plugins, or connectors when available.
+2. If platform MCPs are not available, use web search with platform/domain queries and credible secondary sources.
+3. If neither route can access useful current content, ask the user for links, screenshots, exported notes, or topic-meeting material. Be explicit that current platform-native trend coverage is unavailable.
+
+Never claim to have searched Xiaohongshu or Douyin if only generic web results were available. Label source confidence as `platform-native`, `web-indexed`, or `user-provided`.
+
 ### Phase 2: Build The招商 Story
 
 Use `references/pitch-method.md` for the story patterns and page modules.
 
 If the task is marketing idea generation, use the idea generation rules in `references/pitch-method.md` before building any page order. A usable招商 idea must include: user participation reason, brand role, platform/resource amplification path, sellable rights, execution rhythm, and risks or missing inputs.
 
-If the task uses trending content, viral formats, livestream/short-video cases, variety shows, overseas content formats, AI玩法, holiday behavior research, or weekly topic notes as input, also read `references/content-trend-method.md`. Extract the repeatable content mechanism first; do not copy named shows or memes directly.
+If the task uses trending content, viral formats, livestream/short-video cases, variety shows, overseas content formats, AI玩法, holiday behavior research, weekly topic notes, or live trend research as input, also read `references/content-trend-method.md`. Extract the repeatable content mechanism first; do not copy named shows or memes directly.
 
 If the category involves beauty, skincare, personal care, fragrance, apparel, fashion, styling, outfits, seasonal newness, trend reports, or large-style-category招商, also read `references/beauty-fashion-method.md`. In these categories, the idea must sell trend ownership, suitability solving, visual desire, and a proof-to-conversion loop rather than generic exposure.
 
@@ -116,6 +129,7 @@ For marketing idea generation, return each idea in a compact decision format:
 
 - Idea name and one-line concept.
 - Source content motif or watch reason, if the idea comes from trending content.
+- Trend evidence and source confidence, if live trend research was used.
 - User tension or node opportunity.
 - Core mechanism: what users/creators/brands/platform do.
 - Brand entry: suitable categories, brand role, and visible touchpoints.
@@ -207,6 +221,7 @@ For Feishu/Lark/Docs-style招商方案, also check:
 ## References
 
 - `references/pitch-method.md`:招商 story formula, page modules, and review criteria.
+- `references/live-trend-research.md`: live Xiaohongshu/Douyin/web trend research workflow before hot-content招商 ideation.
 - `references/content-trend-method.md`: hot-content-inspired招商 ideation, viral format extraction, content mechanism patterns, and brand role conversion.
 - `references/beauty-fashion-method.md`: beauty/fashion category logic, trend IP packaging, style/beauty lab mechanisms, ranking/list formats, and commercialization checklist.
 - `references/proposal-doc-method.md`:招商方案/招商手册 document structure, PPT-to-document conversion rules, and Feishu/Lark-style formatting.

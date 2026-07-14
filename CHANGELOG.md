@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0
+
+- Added live trend research workflow before hot-content-inspired招商 ideation.
+- Added Xiaohongshu/RedNote and Douyin source routing rules: use platform MCPs/connectors when available, fall back to web-indexed search, or ask for user-provided links/screenshots when needed.
+- Added source confidence labels (`platform-native`, `web-indexed`, `user-provided`) to avoid pretending generic web search is platform-native trend research.
+- Added live trend evidence fields to marketing idea outputs.
+
 ## 0.4.0
 
 - Added hot-content-inspired招商 ideation method.
